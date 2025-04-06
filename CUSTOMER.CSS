@@ -1,0 +1,19 @@
+
+.reviewcontainer{
+    display:grid;
+    border: 4px black;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+    /* margin: 10px; */
+    padding: 20px;
+ }
+ .review{
+     border: 2px solid;
+     text-align: center;
+     box-sizing: border-box;
+     text-align: center;
+     margin: 5px;
+     padding: 10px;
+     border-radius: 25%;
+    }
+    

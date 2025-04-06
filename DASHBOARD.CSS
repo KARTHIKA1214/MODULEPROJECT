@@ -1,0 +1,105 @@
+body{
+    font-family:cursive;
+}
+.GRID{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+     gap: 1rem;
+    align-items:center;
+    justify-content: center;
+    }
+.cream {
+    display: grid;
+    grid-template-columns: repeat(1,5fr);
+    align-items:center;
+    justify-items:center;
+    width:100%;
+    height: fit-content; 
+    }
+    img{
+        max-width: 100%;
+    }
+H2{
+    letter-spacing: 10PX;
+    text-align: center;
+font-style: italic;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+H3{
+    letter-spacing: 5PX;
+    font-style: italic;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ul{
+    font-style: oblique;
+    letter-spacing: 2px;
+}
+header{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 10px;
+    letter-spacing: 5px;
+    color: darkgreen;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-inner{
+    position: relative; 
+     overflow: hidden;
+     right:800PX; 
+    top: 5vh;
+   left:50vH;
+    /* bottom: 75PX;   */
+   }
+#carouselExampleFade{
+overflow: hidden; 
+
+}
+.carousel-control-prev{
+    background-color: gray;    
+    width: 5VH;
+height: 15VH;
+top: 200PX;
+left: 50VH; 
+}
+.carousel-control-next{
+background-color: gray;
+ width: 5VH;
+height: 15VH;
+top: 200PX;
+left: 148VH; 
+}
+hr{
+    padding:4px;
+    margin: 5PX;
+}
+.space{
+text-align: center;
+margin: 5%;
+padding: 2px;
+}
+.head {
+background-color: rgba(173, 255, 80, 0.459);
+
+}
+nav{
+display: flex;
+justify-content: space-evenly;
+padding-top: 10px;
+padding-left: 8%; 
+padding-right: 8%; 
+ }
+nav ul li{
+list-style-type: none;
+display: inline-block; 
+ margin: 20px;
+}
+
+nav img{
+border-radius: 25px;
+}
+.space{
+font-weight: lighter;
+font-size: x-large;
+}

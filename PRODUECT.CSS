@@ -1,0 +1,84 @@
+.catalogue{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 1rem;
+   align-items:center;
+   justify-content: center;
+   }
+.hairseram{
+    border:3px solid rgba(0, 0, 0, 0.514);
+    box-shadow: 4px 2px 0px 1px gray;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+  
+}
+.hairoil{
+    border:3px solid rgba(0, 0, 0, 0.514);
+    box-shadow: 4px 2px 0px 1px gray;
+    border-radius: 6px;
+    width: 100%;
+    height: 95%;
+    display: flex;
+    justify-content: center;
+}
+.faceseram{
+    border:3px solid rgba(0, 0, 0, 0.514);
+    box-shadow: 4px 2px 0px 1px gray;
+    border-radius: 6px;
+    width: 100%;
+    height: 95%;
+    display: flex;
+    justify-content: center;
+}
+.shamboo{
+    border:3px solid rgba(0, 0, 0, 0.514);
+    box-shadow: 4px 2px 0px 1px gray;
+    border-radius: 6px;
+    width: 100%;
+    height: 95%;
+    display: flex;
+    justify-content: center;
+}
+.facecream{
+    border:3px solid rgba(0, 0, 0, 0.514);
+    box-shadow: 4px 2px 0px 1px gray;
+    border-radius: 6px;
+    width: 100%;
+    height: 95%;
+    display: flex;
+    justify-content: center;
+}
+.BTN{
+    background-color: dodgerblue;
+    font-size:large;
+    border-radius: 15px;
+    width: 15%;
+    height:100%;
+   justify-content:space-evenly;
+   border: 2px solid black;
+   display: grid;
+   /* grid-template-columns: repeat(3,1fr); */
+   gap: 1rem;
+}
+section{
+    text-align: left;
+    font-size: small;
+    font-weight: bold;
+}
+.ratingreview{
+    margin: 10px;
+    display: flex;
+justify-content:space-around;    
+}
+.buttonreview{
+    display: flex;
+    margin: 10px;
+    justify-content: space-around;
+}
+.addtocard{
+    display:flex;
+    justify-content:space-between;
+   box-sizing: border-box;
+   border: blue;
+}
